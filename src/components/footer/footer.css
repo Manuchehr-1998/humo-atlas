@@ -1,0 +1,57 @@
+.footer {
+  width: 100%;
+  margin: auto;
+  display: flex;
+}
+
+.footer-left {
+  width: 50%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 50px;
+}
+
+.atlas-biomed {
+  font-family: "DINPro", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+}
+.footer-social {
+  display: flex;
+  padding: 20px;
+  gap: 10px;
+}
+.footer-socials {
+  width: 50px;
+  height: 50px;
+  background-color: black;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contact{
+    width: 80%;
+    margin: auto;
+    font-family: "DINPro", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: rgba(0, 0, 0, 0.3);
+}
+/* footer-rigth */
+.footer-rigth {
+  width: 50%;
+  margin: auto;
+  display: flex;
+  justify-content: space-evenly;
+  gap: 50px;
+}
+.atlas-biomed-rigth {
+  font-family: "DINPro", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+}

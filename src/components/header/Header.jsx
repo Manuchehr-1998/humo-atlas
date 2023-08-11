@@ -3,6 +3,7 @@ import Logo from "../../assets/Logo.svg";
 import Cart from "../../assets/Cart.svg";
 import Profile from "../../assets/Profile.svg";
 import Group from "../../assets/Group 48948.svg";
+import Mask from "../../assets/Mask group.svg";
 import Navigation from "../../assets/navigation-close-icon.svg";
 import "./header.css";
 
@@ -28,35 +29,53 @@ const Header = () => {
         </div>
       </div>
       <div className="nav-container">
-      <div className="nav-search">
-        <div className="nav-left">
-          <div>
-            <img src={Logo} alt="" />
+        <div className="nav-search">
+          <div className="nav-left">
+            <div>
+              <img src={Logo} alt="" />
+            </div>
+            <div className="item-nav">
+              <ul>
+                <li>DNA</li>
+                <li>Microbiome</li>
+                <li>Partner with us</li>
+                <li>About Atlas</li>
+                <li>FAQ</li>
+                <li>Upload</li>
+              </ul>
+            </div>
           </div>
-          <div className="item-nav">
-            <ul>
-              <li>DNA</li>
-              <li>Microbiome</li>
-              <li>Partner with us</li>
-              <li>About Atlas</li>
-              <li>FAQ</li>
-              <li>Upload</li>
-            </ul>
+          <div className="nav-rigth">
+            <div className="">
+              <img src={Cart} alt="" />
+            </div>
+            <div>
+              <img src={Profile} alt="" />
+            </div>
+            <div>
+              <img src={Group} alt="" />
+            </div>
           </div>
         </div>
-        <div className="nav-rigth">
-          <div className="">
-            <img src={Cart} alt="" />
+        <div className="more-item">
+          <div className="more-left">
+            <div className="more-text-gradient">
+              <h1 className="more-text-h1">
+                More   <span id="answers">answers</span>   to your <br /> <span id="questions">questions</span> in our
+                blog
+              </h1>
+            </div>
+            <div className="more-text">
+              <p className="more-text-sharing">
+                Sharing knowledge on how genes, gut bacteria <br /> and lifestyle
+                affect your health
+              </p>
+            </div>
           </div>
-          <div>
-            <img src={Profile} alt="" />
-          </div>
-          <div>
-            <img src={Group} alt="" />
+          <div className="more-rigth">
+            <img src={Mask} alt="" />
           </div>
         </div>
-      </div>
-
       </div>
     </div>
   );
