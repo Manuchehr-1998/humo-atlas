@@ -1,7 +1,5 @@
 import "./stickbar.css";
-import faceboock from "../../assets/Facebook.svg";
-import instagram from "../../assets/instagram.svg";
-import mesenger from "../../assets/Vector.svg";
+
 import microbial from "../../assets/microbial.png";
 const StickBar = () => {
   return (
@@ -88,17 +86,7 @@ const StickBar = () => {
           </div>
         </div>
       </div>
-      <div className="social-board">
-        <div className="social-img">
-          <img src={faceboock} alt="" />
-        </div>
-        <div className="social-img">
-          <img src={instagram} alt="" />
-        </div>
-        <div className="social-img">
-          <img src={mesenger} alt="" />
-        </div>
-      </div>
+   
       <div className="line-gradient">
         <div className="microb">
           <img className="microb-img" src={microbial} alt="Image" />  

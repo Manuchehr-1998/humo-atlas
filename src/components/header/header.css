@@ -1,75 +1,8 @@
 .container {
   width: 100%;
-  margin: auto;
-}
-/* nav-bye-now */
-.nav {
-  width: 100%;
-  margin: auto;
-  background: #fbe982;
-  display: flex;
-  align-items: center;
-}
-.nav-navigation {
-  display: flex;
-  padding-right: 10px;
-}
-.nav-atlas-header {
-  width: 50%;
-  margin: auto;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 10px;
-}
-.nav-atlas-header-img {
-  width: 50px;
-  height: 50px;
-}
-.nav-text-header {
-  font-size: 16px;
-}
-
-.nav-btn-bye {
-  width: 100px;
-  padding: 10px;
-  background: #000000;
-  border-radius: 100px;
-  color: white;
-}
-
-/* nav-search */
-.nav-container {
-  width: 100%;
-  margin: auto;
   background: #7645ef;
-  height: 400px;
 }
-.nav-search {
-  display: flex;
-  width: 90%;
-  margin: auto;
-  justify-content: space-between;
-}
-.nav-left {
-  display: flex;
-  align-items: center;
-}
-.nav-rigth {
-  display: flex;
-  align-items: center;
-  gap: 16px;
-}
-.item-nav ul {
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  gap: 20px;
-  align-items: center;
-  list-style: none;
-  color: white;
-  font-size: 16px;
-}
+
 
 /* more-item */
 .more-item {
@@ -103,6 +36,8 @@
   line-height: 30px;
 }
 .more-rigth {
-  position: relative; 
-  top: 160px;
+  display: flex;
+  align-items: flex-end;
+  /* position: relative;
+  top: 160px; */
 }
