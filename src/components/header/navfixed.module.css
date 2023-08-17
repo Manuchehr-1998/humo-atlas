@@ -1,0 +1,259 @@
+/* nav-bye-now */
+.nav {
+  width: 100%;
+  background: #fbe982;
+  display: flex;
+  align-items: center;
+  transition: 0.3s;
+}
+.sticky {
+  width: 100%;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+.nav__center {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+.nav__navigation {
+  display: flex;
+  padding-right: 10px;
+}
+.btn__navigator__x {
+  border: none;
+  background: none;
+}
+.nav__atlas__header {
+  width: 50%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+.nav__atlas__header__img {
+  width: 50px;
+  height: 50px;
+}
+.nav__text__header {
+  font-size: 16px;
+}
+
+.nav__btn__bye {
+  width: 100px;
+  padding: 10px;
+  background: #000000;
+  border-radius: 100px;
+  color: white;
+}
+
+/* nav-search */
+.nav__search {
+  display: flex;
+  width: 100%;
+  margin: auto;
+  padding-top: 20px;
+  justify-content: space-between;
+  background: #7645ef;
+}
+.nav__left {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.nav__rigth {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.item__nav ul {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  gap: 22px;
+  align-items: center;
+  list-style: none;
+  color: white;
+  font-size: 18px;
+}
+
+/* searchmew */
+.searchmew {
+  width: 100%;
+  background: #7645ef;
+  position: fixed;
+}
+/* new search */
+.nav__search {
+  width: 100%;
+  margin: auto;
+}
+.center {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  position: relative;
+  gap: 50px;
+}
+.nav__absolute {
+  position: absolute;
+  left: 0px;
+}
+.nav__inp__div {
+  ::-webkit-input-placeholder {
+    /* WebKit browsers */
+    color: white;
+    padding-left: 25px;
+  }
+}
+.nav_input {
+  width: 1200px;
+  position: relative;
+  display: flex;
+  margin: 20px;
+  color: #fff;
+}
+.inp {
+  width: 1000px;
+  background: #7645ef;
+  border: none;
+  border-bottom: 1px solid white;
+  color: #fff;
+  align-items: center;
+}
+
+
+/* burger btn */
+.wrapper{
+  display: none;
+}
+.burger__btn {
+  width: 30px;
+  height: 30px;
+  position: relative;
+  top: 15px;
+  left: 326px;
+  z-index: 2;
+  overflow: hidden;
+  background-color: black;
+}
+.burger__btn span {
+  width: 30px;
+  height: 3px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  transition: all 0.5s;
+}
+.burger__btn span:nth-of-type(2) {
+  top: calc(50% - 8px);
+}
+.burger__btn span:nth-of-type(3) {
+  top: calc(50% + 8px);
+}
+.burger__menu {
+  position: fixed;
+  top: 0;
+  left: 0%;
+  width: 250px;
+  height: 350px;
+  padding: 15px;
+  background: rgba(24, 24, 24, 0.95);
+  transform: translateY(-100%);
+  transition: transform 0.5s;
+}
+.burger__menu.active {
+  transform: translateX(0);
+}
+.burger__menu li {
+  list-style-type: none;
+}
+.burger__btn span:nth-of-type(1) {
+  width: 22px;
+  left: 22px;
+}
+.burger__btn.active span:nth-of-type(1) {
+  display: none;
+}
+.burger__btn.active span:nth-of-type(2) {
+  top: 50%;
+  transform: translate(-50%, 0%) rotate(45deg);
+}
+.burger__btn.active span:nth-of-type(3) {
+  top: 50%;
+  transform: translate(-50%, 0%) rotate(-45deg);
+}
+
+/* адаптасия мобилный версия */
+@media (max-width: 376px) {
+  .sticky {
+    width: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+  }
+
+  .nav__atlas__header {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .nav__text__header__m {
+    order: 1;
+    width: 70%;
+  }
+  .nav__btn {
+    order: 2;
+    width: 50%;
+  }
+  .nav__atlas__img {
+    order: 3;
+  }
+  .nav__navigation {
+    position: relative;
+  }
+  .btn__navigator__x{
+    position: absolute;
+    bottom: 25px;
+    right: 25px;
+  }
+
+  /* nav search */
+  .nav__search {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+  }
+  .nav__left {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+  }
+  .nav__rigth {
+    display: flex;
+    align-items: center;
+  }
+  .nav__cart{
+    display: none;
+  }
+  .nav__profile{
+    display: none;
+  }
+  .item__nav ul {
+    display: none;
+  }
+  .wrapper{
+    display: block;
+    position: relative;
+  }
+  .burger__btn{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+  }
+}

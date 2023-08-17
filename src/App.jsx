@@ -1,8 +1,11 @@
 import Home from "./page.jsx/Home"
+import "./App.css"
+import Social from "./components/fixedsocial/Social"
 
 const App = () => {
   return (
-    <div>
+    <div className="contener">
+      <Social/>
       <Home/>
     </div>
   )

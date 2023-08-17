@@ -1,0 +1,15 @@
+.contener {
+  max-width: 1550px;
+  margin: 0 auto;
+  font-family: "DINPRo-Black";
+  position: relative;
+}
+
+@media (max-width: 375px){
+  .contener {
+    max-width: 375px;
+    margin: 0 auto;
+    font-family: "DINPRo-Black";
+    position: relative;
+  }
+}

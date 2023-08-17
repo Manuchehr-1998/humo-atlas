@@ -4,26 +4,27 @@
   display: flex;
 }
 
-.footer-left {
+.footer__left {
   width: 50%;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
   gap: 50px;
+  padding: 50px;
 }
 
-.atlas-biomed {
+.atlas__biomed {
   font-family: "DINPro", sans-serif;
   font-weight: 400;
   font-size: 18px;
-  line-height: 24px;
+  line-height: 34px;
 }
-.footer-social {
+.footer__social {
   display: flex;
   padding: 20px;
   gap: 10px;
 }
-.footer-socials {
+.footer__socials {
   width: 50px;
   height: 50px;
   background-color: black;
@@ -32,26 +33,25 @@
   justify-content: center;
   align-items: center;
 }
-.contact{
-    width: 80%;
-    margin: auto;
-    font-family: "DINPro", sans-serif;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 24px;
-    color: rgba(0, 0, 0, 0.3);
+.contact {
+  width: 80%;
+  font-family: "DINPro", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 34px;
+  color: rgba(0, 0, 0, 0.3);
 }
 /* footer-rigth */
-.footer-rigth {
+.footer__rigth {
+  padding: 50px;
   width: 50%;
-  margin: auto;
   display: flex;
   justify-content: space-evenly;
   gap: 50px;
 }
-.atlas-biomed-rigth {
+.atlas__biomed__rigth {
   font-family: "DINPro", sans-serif;
   font-weight: 400;
   font-size: 18px;
-  line-height: 24px;
+  line-height: 44px;
 }

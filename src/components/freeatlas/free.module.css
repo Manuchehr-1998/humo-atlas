@@ -1,0 +1,408 @@
+.free__contener {
+  width: 100%;
+  margin: auto;
+  background: #fff2dc;
+  height: 704px;
+  position: relative;
+}
+.free__book {
+  position: absolute;
+  top: 70px;
+  left: 965px;
+  transform: rotate(-9.103deg);
+}
+.free__title {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 60px;
+}
+.free__title__text {
+  width: 100%;
+  font-family: DINPro;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 60px; /* 120% */
+}
+#text {
+  color: #7645ef;
+}
+.free__p {
+  color: var(--colors-black-lightened, #000);
+  font-feature-settings: "clig" off, "liga" off;
+  letter-spacing: 2px;
+  /* t1/Regular */
+  font-family: DINPro;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 133.333% */
+}
+.btn {
+  position: absolute;
+  left: 1310px;
+  top: 60px;
+}
+.free__btn {
+  display: inline-flex;
+  height: 50px;
+  padding: 11px 25px 14px 25px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+  border-radius: 1000px;
+  border: none;
+  background: black;
+  color: white;
+}
+/* cards */
+.cards {
+  width: 100%;
+  position: absolute;
+  display: flex;
+  justify-content: space-around;
+  top: 220px;
+}
+.style.card__par {
+  width: 250px;
+}
+.card__girle {
+  width: 250px;
+  height: 320px;
+  background-image: url(../../assets/girle.png);
+  border-radius: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.card__p {
+  width: 250px;
+  color: rgba(0, 0, 0, 0.35);
+  font-feature-settings: "clig" off, "liga" off;
+  /* t2/Regular */
+  font-family: DINPro;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px; /* 125% */
+  padding: 15px;
+}
+.girle__title {
+  padding: 20px;
+  color: #636b63;
+  text-align: center;
+  font-family: Druk Wide Cy TT Medium;
+  font-size: 34px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px; /* 116.667% */
+  letter-spacing: 0.24px;
+  text-transform: capitalize;
+}
+.data {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  padding: 20px;
+}
+.card__data {
+  color: var(--colors-white-base, #fff);
+  text-align: center;
+  font-feature-settings: "clig" off, "liga" off;
+
+  /* t2/Medium */
+  font-family: DINPro;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px; /* 125% */
+}
+.card__salat {
+  width: 250px;
+  height: 320px;
+  background-image: url(../../assets/salat.png);
+  border-radius: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.salat__title {
+  color: white;
+  text-align: center;
+  font-family: Druk Wide Cy TT Medium;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 27px; /* 112.5% */
+  letter-spacing: 0.24px;
+  text-transform: capitalize;
+  padding: 20px;
+}
+.card__fruits {
+  width: 250px;
+  height: 320px;
+  background-image: url(../../assets/fruits.png);
+  border-radius: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.fruits__title {
+  text-align: center;
+  font-family: Druk Wide Cy TT Medium;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 27px; /* 112.5% */
+  letter-spacing: 0.24px;
+  text-transform: capitalize;
+  padding: 20px;
+  color: white;
+}
+#rainbow {
+  background: linear-gradient(
+    90deg,
+    rgba(248, 210, 97, 1),
+    rgba(249, 136, 104, 1),
+    rgba(243, 94, 159, 1),
+    rgba(192, 119, 227, 1)
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: DINPro;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 30px;
+}
+.card__noutbook {
+  width: 250px;
+  height: 320px;
+  background-image: url(../../assets/noutbuck.png);
+  border-radius: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.noutbook__title {
+  color: #fff;
+  text-align: center;
+  font-family: Druk Wide Cy TT Medium;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 25px; /* 104.167% */
+  letter-spacing: 0.24px;
+  padding: 20px;
+}
+
+@media (max-width:376px){
+  .free__contener {
+    width: 100%;
+    margin: auto;
+    height: 704px;
+    position: relative;
+  }
+  .free__book {
+    position: absolute;
+    top: 70px;
+    left: 965px;
+    transform: rotate(-9.103deg);
+  }
+  .free__title {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 60px;
+  }
+  .free__title__text {
+    width: 100%;
+    font-family: DINPro;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 60px; /* 120% */
+  }
+  #text {
+    color: #7645ef;
+  }
+  .free__p {
+    color: var(--colors-black-lightened, #000);
+    font-feature-settings: "clig" off, "liga" off;
+    letter-spacing: 2px;
+    /* t1/Regular */
+    font-family: DINPro;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 133.333% */
+  }
+  .btn {
+    position: absolute;
+    left: 1310px;
+    top: 60px;
+  }
+  .free__btn {
+    display:flex;
+    height: 50px;
+    padding: 11px 25px 14px 25px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    border-radius: 1000px;
+    border: none;
+    background: black;
+    color: white;
+  }
+  /* cards */
+  .cards {
+    width: 100%;
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    top: 220px;
+  }
+  .style.card__par {
+    width: 250px;
+  }
+  .card__girle {
+    width: 250px;
+    height: 320px;
+    background-image: url(../../assets/girle.png);
+    border-radius: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .card__p {
+    width: 250px;
+    color: rgba(0, 0, 0, 0.35);
+    font-feature-settings: "clig" off, "liga" off;
+    /* t2/Regular */
+    font-family: DINPro;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 125% */
+    padding: 15px;
+  }
+  .girle__title {
+    padding: 20px;
+    color: #636b63;
+    text-align: center;
+    font-family: Druk Wide Cy TT Medium;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px; /* 116.667% */
+    letter-spacing: 0.24px;
+    text-transform: capitalize;
+  }
+  .data {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 20px;
+  }
+  .card__data {
+    color: var(--colors-white-base, #fff);
+    text-align: center;
+    font-feature-settings: "clig" off, "liga" off;
+  
+    /* t2/Medium */
+    font-family: DINPro;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px; /* 125% */
+  }
+  .card__salat {
+    width: 250px;
+    height: 320px;
+    background-image: url(../../assets/salat.png);
+    border-radius: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .salat__title {
+    color: white;
+    text-align: center;
+    font-family: Druk Wide Cy TT Medium;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 27px; /* 112.5% */
+    letter-spacing: 0.24px;
+    text-transform: capitalize;
+    padding: 20px;
+  }
+  .card__fruits {
+    width: 250px;
+    height: 320px;
+    background-image: url(../../assets/fruits.png);
+    border-radius: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .fruits__title {
+    text-align: center;
+    font-family: Druk Wide Cy TT Medium;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 27px; /* 112.5% */
+    letter-spacing: 0.24px;
+    text-transform: capitalize;
+    padding: 20px;
+    color: white;
+  }
+  #rainbow {
+    background: linear-gradient(
+      90deg,
+      rgba(248, 210, 97, 1),
+      rgba(249, 136, 104, 1),
+      rgba(243, 94, 159, 1),
+      rgba(192, 119, 227, 1)
+    );
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-feature-settings: "clig" off, "liga" off;
+    font-family: DINPro;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px;
+  }
+  .card__noutbook {
+    width: 250px;
+    height: 320px;
+    background-image: url(../../assets/noutbuck.png);
+    border-radius: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .noutbook__title {
+    color: #fff;
+    text-align: center;
+    font-family: Druk Wide Cy TT Medium;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 25px; /* 104.167% */
+    letter-spacing: 0.24px;
+    padding: 20px;
+  }
+  
+}

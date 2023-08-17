@@ -1,8 +1,7 @@
-.stick-bar {
+.stick__bar {
   width: 100%;
-  height: 100vh;
   margin: auto;
-  background: rgba(255, 255, 255, 1);
+  height: 850px;
 }
 .center {
   width: 90%;
@@ -11,10 +10,13 @@
   flex-wrap: wrap;
   gap: 20px;
   padding: 10px;
+  position: relative;
+  background: rgba(255, 255, 255, 1); 
 }
 .frame {
   display: flex;
   align-items: center;
+  justify-content: center;
   gap: 10px;
   width: 160px;
   height: 43px;
@@ -22,7 +24,7 @@
   border: 1px solid rgba(0, 0, 0, 0.1);
   padding: 5px;
 }
-.text-stick {
+.text__stick {
   font-size: 18px;
   line-height: 28px;
   font-weight: 500;
@@ -31,7 +33,7 @@
   color: rgba(0, 0, 0, 0.3);
   font-weight: 400;
 }
-.line-gradient {
+.line__gradient {
   width: 100%;
   height: 20px;
   background: linear-gradient(
@@ -47,7 +49,7 @@
   justify-content: center;
 
 }
-.microb-img{
+.microb__img{
   width: 90%;
   margin: auto;
   padding: 30px;
