@@ -4,3 +4,11 @@
     font-family: "DINPRo-Black";
     position: relative;
 }
+
+@media(max-width: 376px){
+    .realitiv{
+        margin: 0 auto;
+        font-family: "DINPRo-Black";
+        position: relative;
+    }
+}
