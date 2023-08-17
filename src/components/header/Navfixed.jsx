@@ -119,7 +119,7 @@ const Navfixed = ({ sticky }) => {
       ) : (
         <div className={style.nav__search}>
           <div className={style.center}>
-            <div className={style.nav__left}>
+            <div className={style.nev__left}>
               <div>
                 <img src={Logo} alt="" />
               </div>

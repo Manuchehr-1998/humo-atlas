@@ -15,6 +15,12 @@ const Header = () => {
               <span id={style.questions}>questions</span> in our blog
             </h1>
           </div>
+          <div className={style.more__text__gradient__mobile}>
+            <h1 className={style.more__text__h1}>
+              More <span id={style.answers}>answers</span> to your
+              <span id={style.questions}>questions</span> in our blog
+            </h1>
+          </div>
           <div className={style.more__text}>
             <p className={style.more__text__sharing}>
               Sharing knowledge on how genes, gut bacteria <br /> and lifestyle
@@ -23,7 +29,7 @@ const Header = () => {
           </div>
         </div>
         <div className={style.more__rigth}>
-          <img src={Mask} alt="" />
+          <img className={style.more__mask} src={Mask} alt="" />
         </div>
       </div>
     </div>
