@@ -14,14 +14,14 @@
 }
 
 .card__trust {
-  display: flex;
-  flex-wrap: wrap;
+ 
   justify-content: space-between;
 }
 .trust__container{
   width: 90%;
   margin: auto;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   padding-top: 30px;
 }
@@ -29,9 +29,6 @@
   font-size: 18px;
   line-height: 24px;
   font-weight: 400;
-}
-.trust__container {
-  display: flex;
 }
 
 .card__img__trust {

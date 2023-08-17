@@ -9,6 +9,7 @@
   width: 90%;
   margin: auto;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
 }
 
@@ -105,6 +106,7 @@
 .face__insta {
   width: 45%;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
 }
 .face {
@@ -229,8 +231,8 @@
 /* blog__img */
 .blog__img {
   position: absolute;
-  top: 540px;
-  left: 1100px;
+  top: 590px;
+  right: 0px;
 }
 /* blog__hr */
 .blog__hr__div {

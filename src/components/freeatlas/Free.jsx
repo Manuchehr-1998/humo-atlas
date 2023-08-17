@@ -15,9 +15,9 @@ const Free = () => {
           email tutorials. <br /> Subscribe to and find out how digestion works
           and where to start making dietary changes.
         </p>
-      </div>
       <div className={style.btn}>
         <button className={style.free__btn}>All courses</button>
+      </div>
       </div>
       <div className={style.cards}>
         <div className={style.card__par}>

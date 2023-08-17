@@ -26,12 +26,14 @@
 .urbancard__container {
   width: 90%;
   margin: auto;
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(2, 1fr);
-  grid-gap: 1em;
+  display:flex;
+  flex-wrap: wrap;
+  gap: 20px;
 }
-
+.card{
+  width: 251px;
+  padding: 20px;
+}
 .card__img {
   border-radius: 20px;
   width: 300px;

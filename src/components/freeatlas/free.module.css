@@ -8,15 +8,21 @@
 .free__book {
   position: absolute;
   top: 70px;
-  left: 965px;
+  right: 150px;
   transform: rotate(-9.103deg);
+  z-index: 0;
+}
+.btn{
+  z-index: 4;
 }
 .free__title {
   width: 90%;
   margin: auto;
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
   padding-top: 60px;
+  z-index: 2;
 }
 .free__title__text {
   width: 100%;
@@ -40,11 +46,6 @@
   font-weight: 400;
   line-height: 24px; /* 133.333% */
 }
-.btn {
-  position: absolute;
-  left: 1310px;
-  top: 60px;
-}
 .free__btn {
   display: inline-flex;
   height: 50px;
@@ -64,6 +65,7 @@
   position: absolute;
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
   top: 220px;
 }
 .style.card__par {

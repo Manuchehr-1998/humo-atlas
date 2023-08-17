@@ -117,7 +117,7 @@ const Navfixed = ({ sticky }) => {
           </div>
         </div>
       ) : (
-        <div className={style.nav__search}>
+        <div className={style.nev__search}>
           <div className={style.center}>
             <div className={style.nev__left}>
               <div>

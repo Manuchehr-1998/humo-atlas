@@ -7,6 +7,7 @@
   width: 90%;
   margin: auto;
   padding: 20px;
+  
 }
 .manage__text {
   font-family: "DINPro", sans-serif;
@@ -21,6 +22,7 @@
   margin: auto;
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 .cards__boy {
   width: 348px;
