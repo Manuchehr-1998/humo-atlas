@@ -40,50 +40,15 @@
   top: 135px;
 }
 
-/* mobile */
-.more__text__gradient__mobile {
-  display: none;
-}
-
 /* adaptasiy  */
 @media (max-width: 376px) {
   .more__item {
     width: 90%;
     margin: auto;
-    height: 280px;
+    height: 400px;
     align-items: center;
-    position: relative;
+    display: flex;
+    justify-content: space-between;
   }
-  .more__text__h1 {
-    font-size: 30px;
-    color: white;
-    font-weight: 500;
-    line-height: 40px;
-  }
-  .more__text__gradient {
-    display: none;
-  }
-  .more__text__gradient__mobile {
-    display: block;
-    width: 312px;
-    align-items: center;
-    text-align: center;
-  }
-  .more__text__sharing {
-    text-align: center;
-    font-feature-settings: "clig" off, "liga" off;
-    font-size: 14px;
-    line-height: 20px; /* 156.25% */
-  }
-  .more__rigth {
-    position: absolute;
-    top: 224px;
-    right: 0;
-  }
-  .more__mask {
-    width: 82.27px;
-    height: 82.27px;
-    transform: rotate(15deg);
-    flex-shrink: 0;
-  }
+  
 }

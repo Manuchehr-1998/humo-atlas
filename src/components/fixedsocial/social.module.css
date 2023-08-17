@@ -22,11 +22,3 @@
   border-bottom: 1px solid;
   border-color: rgba(255, 255, 255, 0.1);
 }
-
-
-/* mobile */
-@media (max-width: 376px){
-  .social_fixed{
-    display: none;
-  }
-}
