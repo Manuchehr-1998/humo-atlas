@@ -11,7 +11,7 @@ import { useEffect, useState } from "react";
 import style from "./navfixed.module.css";
 
 const Navfixed = ({ sticky }) => {
-  const initialCloseValue = JSON.parse(localStorage.getItem("close")) || true;
+  const initialCloseValue = JSON.parse(localStorage.getItem("close")) || false;
   const [close, setClose] = useState(initialCloseValue);
 
   // Установить значение close в localStorage при изменении close
