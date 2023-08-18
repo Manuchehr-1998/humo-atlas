@@ -5,11 +5,12 @@
   position: relative;
 }
 
-@media (max-width: 375px){
+@media (max-width: 376px){
   .contener {
-    max-width: 375px;
+    max-width: 376px;
     margin: 0 auto;
     font-family: "DINPRo-Black";
     position: relative;
+    overflow: hidden;
   }
 }
