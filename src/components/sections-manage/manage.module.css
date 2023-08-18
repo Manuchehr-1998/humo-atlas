@@ -7,7 +7,6 @@
   width: 90%;
   margin: auto;
   padding: 20px;
-  
 }
 .manage__text {
   font-family: "DINPro", sans-serif;
@@ -130,7 +129,7 @@
 .manage__box {
   position: absolute;
   top: 80px;
-  left: 100px;
+  right: 70px;
   z-index: 5;
 }
 .manage__salat__img {
@@ -141,7 +140,7 @@
 .manage__salat {
   position: absolute;
   top: 150px;
-  left: 218px;
+  right: 0px;
 }
 #salat {
   background: rgba(118, 69, 239, 1);
@@ -198,49 +197,7 @@
   letter-spacing: 0.24px;
   text-transform: uppercase;
 }
-.manage__box__img {
-  width: 170.83px;
-  height: 200.25px;
-  flex-shrink: 0;
-}
-.manage__box {
-  position: absolute;
-  top: 80px;
-  left: 100px;
-}
-.manage__salat__img {
-  width: 130.83px;
-  height: 150.25px;
-  flex-shrink: 0;
-}
-.manage__salat {
-  position: absolute;
-  top: 150px;
-  left: 218px;
-}
-#salat {
-  background: rgba(118, 69, 239, 1);
-  color: white;
-  padding: 5px;
-  font-size: 19px;
-  line-height: 26px;
-  border-radius: 10px;
-  text-align: center;
-}
-.salat__price__discount {
-  display: flex;
-  z-index: 15;
-  flex-wrap: wrap;
-  align-items: flex-end;
-  width: 90%;
-  margin: auto;
-  gap: 10px;
-}
-.salat__price__nodiscount {
-  font-size: 26px;
-  color: rgba(0, 0, 0, 0.3);
-  line-height: 34px;
-}
+
 #phone__dna {
   color: #fff;
   text-align: center;
@@ -304,31 +261,31 @@
   background: var(--colors-purple-app, #7645ef);
   box-shadow: 0px 3px 12px 0px rgba(0, 0, 0, 0.05);
 }
-.phone__img{
+.phone__img {
   position: absolute;
   top: 120px;
   left: 200px;
 }
 
-
-@media (max-width: 376px){
+@media (max-width: 376px) {
   .mange__container {
     width: 100%;
-    height: 550px;
     margin: auto;
+    height: 1142px;
   }
   .mange__title {
     width: 90%;
     margin: auto;
-    padding: 20px;
+    padding: 3px;
+    text-align: center;
   }
   .manage__text {
     font-family: "DINPro", sans-serif;
-    font-size: 35px;
+    font-size: 25px;
     font-weight: 500;
-    line-height: 40px;
+    line-height: 30px;
   }
-  
+
   /* cards-mange */
   .cards__manage {
     width: 90%;
@@ -336,14 +293,16 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    margin-bottom: 5px;
   }
   .cards__boy {
-    width: 348px;
+    width: 252px;
     height: 360px;
     background-image: url(../../assets/manage-1.png);
-    border-radius: 20px;
+    border-radius: 10px;
     display: flex;
     flex-wrap: wrap;
+    margin-bottom: 7px;
   }
   .price__discount {
     display: flex;
@@ -354,7 +313,7 @@
     gap: 10px;
   }
   .price__nodiscount {
-    font-size: 26px;
+    font-size: 24px;
     color: rgba(0, 0, 0, 0.3);
     line-height: 34px;
   }
@@ -363,24 +322,15 @@
     display: flex;
   }
   .price {
-    width: 90%;
     margin: auto;
-    font-size: 40px;
-    line-height: 48px;
+    font-size: 24px;
+    line-height: 0px;
     font-weight: 700;
   }
-  #dna {
-    color: rgba(118, 69, 239, 1);
-    font-weight: 600;
-  }
+
   #discount {
-    background: rgba(118, 69, 239, 1);
-    color: white;
-    padding: 5px;
-    font-size: 19px;
+    font-size: 15px;
     line-height: 26px;
-    border-radius: 10px;
-    text-align: center;
   }
   #with {
     color: rgba(118, 69, 239, 1);
@@ -397,97 +347,74 @@
     margin: auto;
   }
   .manage__btn {
-    width: 308px;
+    width: 210px;
     margin: auto;
-    height: 50px;
-    top: 290px;
-    left: 20px;
-    padding: 14px 30px 16px 30px;
-    border-radius: 1000px;
-    gap: 10px;
-    border: none;
-  }
-  .manage__btns {
-    margin: auto;
-  }
-  .manage__btn:hover {
-    background: rgba(118, 69, 239, 1);
-    color: white;
   }
   /* cards 2 */
   .cards__salat {
-    width: 348px;
+    width: 252px;
     height: 360px;
     border-radius: 20px;
     background: #9fb5ce;
     display: flex;
     flex-wrap: wrap;
     position: relative;
+    margin-bottom: 7px;
   }
   #micro {
     color: #fff;
     text-align: center;
     font-family: Druk Wide Cy TT Medium;
-    font-size: 24px;
+    font-size: 18px;
     font-style: normal;
     font-weight: 500;
-    line-height: 28px; /* 116.667% */
+    line-height: 14px; /* 116.667% */
     letter-spacing: 0.24px;
-    text-transform: uppercase;
-  }
-  .manage__box__img {
-    width: 170.83px;
-    height: 200.25px;
-    flex-shrink: 0;
   }
   .manage__box {
     position: absolute;
-    top: 80px;
-    left: 100px;
+    top: 90px;
+    right: 54px;
     z-index: 5;
   }
+  .manage__box__img {
+    width: 100.83px;
+    height: 160.25px;
+  }
   .manage__salat__img {
-    width: 130.83px;
-    height: 150.25px;
+    width: 100.83px;
+    height: 120.25px;
     flex-shrink: 0;
   }
   .manage__salat {
     position: absolute;
-    top: 150px;
-    left: 218px;
+    top: 176px;
+    right: 0px;
   }
   #salat {
     background: rgba(118, 69, 239, 1);
     color: white;
     padding: 5px;
-    font-size: 19px;
+    font-size: 15px;
     line-height: 26px;
     border-radius: 10px;
     text-align: center;
   }
-  .salat__price__discount {
-    display: flex;
-    z-index: 10;
-    flex-wrap: wrap;
-    align-items: flex-end;
-    width: 90%;
-    margin: auto;
-    gap: 10px;
-  }
   .salat__price__nodiscount {
-    font-size: 26px;
+    font-size: 18px;
     color: rgba(0, 0, 0, 0.3);
     line-height: 34px;
   }
   /* cards 3 */
   .cards__phone {
-    width: 348px;
+    width: 252px;
     height: 360px;
     border-radius: 20px;
     background: black;
     display: flex;
     flex-wrap: wrap;
     position: relative;
+    margin-bottom: 7px;
   }
   .phone__name {
     width: 100%;
@@ -499,60 +426,6 @@
     font-size: 17px;
     font-style: normal;
     font-weight: 500;
-  }
-  #micro {
-    color: #fff;
-    text-align: center;
-    font-family: Druk Wide Cy TT Medium;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 28px; /* 116.667% */
-    letter-spacing: 0.24px;
-    text-transform: uppercase;
-  }
-  .manage__box__img {
-    width: 170.83px;
-    height: 200.25px;
-    flex-shrink: 0;
-  }
-  .manage__box {
-    position: absolute;
-    top: 80px;
-    left: 100px;
-  }
-  .manage__salat__img {
-    width: 130.83px;
-    height: 150.25px;
-    flex-shrink: 0;
-  }
-  .manage__salat {
-    position: absolute;
-    top: 150px;
-    left: 218px;
-  }
-  #salat {
-    background: rgba(118, 69, 239, 1);
-    color: white;
-    padding: 5px;
-    font-size: 19px;
-    line-height: 26px;
-    border-radius: 10px;
-    text-align: center;
-  }
-  .salat__price__discount {
-    display: flex;
-    z-index: 15;
-    flex-wrap: wrap;
-    align-items: flex-end;
-    width: 90%;
-    margin: auto;
-    gap: 10px;
-  }
-  .salat__price__nodiscount {
-    font-size: 26px;
-    color: rgba(0, 0, 0, 0.3);
-    line-height: 34px;
   }
   #phone__dna {
     color: #fff;
@@ -569,7 +442,7 @@
     display: flex;
     flex-wrap: wrap;
     align-items: flex-end;
-    width: 50%;
+    width: 75%;
     margin: auto;
     gap: 10px;
   }
@@ -598,28 +471,15 @@
     line-height: 30px; /* 120% */
   }
   .phone__btn {
-    width: 308px;
-    margin: auto;
-    height: 50px;
-    top: 290px;
-    left: 20px;
-    padding: 14px 30px 16px 30px;
-    border-radius: 1000px;
-    gap: 10px;
-    border: none;
-    border-radius: 1000px;
+    width: 210px;
   }
-  .phone__btns {
-    margin: auto;
-    z-index: 5;
+  .phone__mobile{
+    width: 100px;
+    height: 150px;
   }
-  .phone__btn:hover {
-    background: var(--colors-purple-app, #7645ef);
-    box-shadow: 0px 3px 12px 0px rgba(0, 0, 0, 0.05);
-  }
-  .phone__img{
+  .phone__img {
     position: absolute;
-    top: 120px;
-    left: 200px;
+    top: 144px;
+    left: 165px;
   }
 }

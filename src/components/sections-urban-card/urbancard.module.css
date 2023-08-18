@@ -88,23 +88,22 @@
 @media (max-width: 376px) {
   .urban__container {
     width: 90%;
+    margin-top: 200px;
   }
   .card {
-    padding: 20px;
+    padding: 0px;
   }
   .card__articles {
     display: flex;
     flex-wrap: wrap;
-    width: 100%;
-    margin: auto;
     gap: 20px;
   }
 
   .urban__title {
     font-family: "DINPro", sans-serif;
-    font-size: 65px;
+    font-size: 30px;
     font-weight: 400;
-    line-height: 70px;
+    line-height: 25px;
   }
   .urban__data {
     font-size: 25px;
@@ -120,12 +119,10 @@
     font-weight: 400;
   }
   .urbancard__container {
-    width: 90%;
-    margin: auto;
+    width: 100%;
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(1, 1fr);
-    grid-gap: 1em;
   }
 
   .card__img {
@@ -149,14 +146,14 @@
   /* articles */
   .top__articles {
     width: 100%;
-    padding: 10px;
+    padding: 0px;
   }
   .articl {
     width: 100%;
     margin: auto;
-    padding: 20px;
+    padding: 5px;
     display: flex;
-    gap: 20px;
+    gap: 5px;
     align-items: center;
   }
   .articl__text {

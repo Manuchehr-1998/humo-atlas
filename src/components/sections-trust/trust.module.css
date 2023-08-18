@@ -95,7 +95,7 @@
     margin: auto;
     color: #000;
     font-family: DINPro;
-    font-size: 40px;
+    font-size: 20px;
     font-style: normal;
     font-weight: 400;
     line-height: 70px; /* 100% */
@@ -112,7 +112,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    padding-top: 30px;
+    padding-top: 3px;
   }
   .trust__card__title {
     font-size: 18px;
@@ -122,12 +122,12 @@
   
   
   .card__img__trust {
-    border-radius: 20px;
-    width: 350px;
+    border-radius: 10px;
+    width: 252px;
     height: 270px;
   }
   .card__title {
-    height: 90px;
+    height: 60px;
   }
   /* Add some padding inside the card container */
   .container__trust__text {
@@ -166,7 +166,7 @@
   }
   
   .trust__text {
-    width: 297px;
+    width: 220px;
     color: #fff;
     font-family: DINPro;
     font-size: 21px;

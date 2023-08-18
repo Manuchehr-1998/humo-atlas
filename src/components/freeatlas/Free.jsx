@@ -4,7 +4,7 @@ const Free = () => {
   return (
     <div className={style.free__contener}>
       <div className={style.free__book}>
-        <img src={book} alt="" />
+        <img src={book} alt="" className={style.book} />
       </div>
       <div className={style.free__title}>
         <h1 className={style.free__title__text}>
