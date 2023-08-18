@@ -71,7 +71,7 @@ const Manage = () => {
             <p className={style.phone__price}>5 000 ₽</p>
           </div>
           <div className={style.phone__img}>
-          <img src={managephone} alt="" />
+          <img src={managephone} alt="" className={style.phone__mobile} />
           </div>
           <div className={style.phone__btns}>
             <button className={style.phone__btn}>Read more</button>

@@ -9,7 +9,7 @@ const Blog = () => {
       <div className={style.cards}>
         <div className={style.community}>
           <div className={style.absolute}>
-            <img src={mesangblog} alt="" />
+            <img src={mesangblog} alt="" className={style.absolute__img} />
           </div>
           <div className={style.community__text}>
             <h1 className={style.community__title}>
@@ -28,37 +28,37 @@ const Blog = () => {
 
             <div className={style.community__btns}>
               <button className={style.community__btn}>Подписаться</button>
-            </div>  
+            </div>
           </div>
           <div className={style.community__check}>
             <input type="checkbox" />
-            <p className={style.chek}>Нажимая на кнопку, я соглашаюсь с обработкой персональных данных</p>
+            <p className={style.chek}>
+              Нажимая на кнопку, я соглашаюсь с обработкой персональных данных
+            </p>
           </div>
         </div>
-        <div className={style.face__insta}>
-          <div className={style.face}>
-            <div>
-              <img src={faceboock} alt="" />
-            </div>
-            <div>
-              <h1 className={style.face__text}>Follow Atlas on Facebook</h1>
-            </div>
-            <div className={style.face__btns}>
-              <button className={style.manage__btn}>Read more</button>
-            </div>
+        <div className={style.face}>
+          <div>
+            <img src={faceboock} alt="" />
           </div>
-          <div className={style.insta}>
-            <div>
-              <img src={instagram} alt="" />
-            </div>
-            <div>
-              <h1 className={style.insta__text}>
-                Follow Atlas on <span id={style.inst}>Instagram</span>
-              </h1>
-            </div>
-            <div className={style.face__btns}>
-              <button className={style.insta__btn}>Read more</button>
-            </div>
+          <div>
+            <h1 className={style.face__text}>Follow Atlas on Facebook</h1>
+          </div>
+          <div className={style.face__btns}>
+            <button className={style.manage__btn}>Read more</button>
+          </div>
+        </div>
+        <div className={style.insta}>
+          <div>
+            <img src={instagram} alt="" />
+          </div>
+          <div>
+            <h1 className={style.insta__text}>
+              Follow Atlas on <span id={style.inst}>Instagram</span>
+            </h1>
+          </div>
+          <div className={style.face__btns}>
+            <button className={style.insta__btn}>Read more</button>
           </div>
         </div>
       </div>

@@ -26,12 +26,14 @@
 .urbancard__container {
   width: 90%;
   margin: auto;
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(2, 1fr);
-  grid-gap: 1em;
+  display:flex;
+  flex-wrap: wrap;
+  gap: 20px;
 }
-
+.card{
+  width: 251px;
+  padding: 20px;
+}
 .card__img {
   border-radius: 20px;
   width: 300px;
@@ -55,19 +57,20 @@
   .dna {
     width: 100%;
     margin: auto;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
   }
   .dna__title {
     width: 90%;
     margin: auto;
-    padding: 20px;
+    padding: 2px;
     color: #000;
     font-family: DINPro;
-    font-size: 70px;
+    font-size: 32px;
     font-style: normal;
     font-weight: 400;
-    line-height: 70px; /* 100% */
+    line-height: 30px;
+    text-align: center;
   }
   
   .urban__data__card {
@@ -78,17 +81,13 @@
     font-weight: 400;
   }
   .urbancard__container {
-    width: 90%;
+    width: 100%;
     margin: auto;
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: repeat(1, 1fr);
-    grid-gap: 1em;
   }
   
   .card__img {
     border-radius: 20px;
-    width: 300px;
+    width: 335px;
     height: 250px;
   }
   .card__title {
