@@ -3,9 +3,6 @@
   margin: auto;
   background: rgba(255, 255, 255, 1);
 }
-.card {
-  padding: 20px;
-}
 .card__articles {
   display: flex;
   width: 100%;
@@ -33,12 +30,14 @@
   font-weight: 400;
 }
 .urbancard__container {
-  width: 90%;
   margin: auto;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(3, 1fr);
-  grid-gap: 1em;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.card {
+  padding: 20px;
+  width: 251px;
 }
 
 .card__img {
@@ -47,7 +46,7 @@
   height: 250px;
 }
 .card__title {
-  height: 90px;
+  height: 120px;
 }
 .uraban__card__title {
   font-size: 22px;
@@ -60,8 +59,8 @@
   height: 100px;
 }
 /* articles */
-.top__articles{
-  width: 100%;
+.top__articles {
+  width: 30%;
   padding: 10px;
 }
 .articl {
@@ -86,26 +85,25 @@
 }
 
 /* mediy */
-@media (max-width: 376px){
+@media (max-width: 376px) {
   .urban__container {
     width: 90%;
+    margin-top: 200px;
   }
   .card {
-    padding: 20px;
+    padding: 0px;
   }
   .card__articles {
     display: flex;
     flex-wrap: wrap;
-    width: 100%;
-    margin: auto;
     gap: 20px;
   }
-  
+
   .urban__title {
     font-family: "DINPro", sans-serif;
-    font-size: 65px;
+    font-size: 30px;
     font-weight: 400;
-    line-height: 70px;
+    line-height: 25px;
   }
   .urban__data {
     font-size: 25px;
@@ -121,21 +119,19 @@
     font-weight: 400;
   }
   .urbancard__container {
-    width: 90%;
-    margin: auto;
+    width: 100%;
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(1, 1fr);
-    grid-gap: 1em;
   }
-  
+
   .card__img {
     border-radius: 20px;
     width: 300px;
     height: 250px;
   }
   .card__title {
-    height: 90px;
+    height: 120px;
   }
   .uraban__card__title {
     font-size: 22px;
@@ -144,20 +140,20 @@
   }
   /* Add some padding inside the card container */
   .container__urban__text {
-    width: 75%;
-    height: 100px;
+    width: 85%;
+    height: 126px;
   }
   /* articles */
-  .top__articles{
+  .top__articles {
     width: 100%;
-    padding: 10px;
+    padding: 0px;
   }
   .articl {
     width: 100%;
     margin: auto;
-    padding: 20px;
+    padding: 5px;
     display: flex;
-    gap: 20px;
+    gap: 5px;
     align-items: center;
   }
   .articl__text {

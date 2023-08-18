@@ -52,43 +52,44 @@ const Navfixed = ({ sticky }) => {
           </div>
         </div>
       ) : null}
+
       {!sticky ? (
         <div className={style.nav__search}>
           <div className={style.nav__center}>
             <div className={style.nav__left}>
-            <div className={style.wrapper}>
-        <div className={style.burger__btn}>
-          <span></span>
-          <span></span>
-          <span></span>
-        </div>
-        <div className={style.burger__menu}>
-          <nav>
-            <ul>
-              <li>DNA</li>
-              <li>Microbiome</li>
-              <li>Partner with us</li>
-              <li>About Atlas</li>
-              <li>FAQ</li>
-              <li>Upload</li>
-            </ul>
-          </nav>
-          <div className={style.new__btn}>
-            <button className={style.new__btn__test}>Buy test</button>
-          </div>
-          <div className={style.nav__rigth}>
-            <div>
-              <img src={Cart} alt="" />
-            </div>
-            <div>
-              <img src={Profile} alt="" />
-            </div>
-            <div>
-              <img src={Group} alt="" />
-            </div>
-          </div>
-        </div>
-      </div>
+              <div className={style.wrapper}>
+                <div className={style.burger__btn}>
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                </div>
+                <div className={style.burger__menu}>
+                  <nav>
+                    <ul>
+                      <li>DNA</li>
+                      <li>Microbiome</li>
+                      <li>Partner with us</li>
+                      <li>About Atlas</li>
+                      <li>FAQ</li>
+                      <li>Upload</li>
+                    </ul>
+                  </nav>
+                  <div className={style.new__btn}>
+                    <button className={style.new__btn__test}>Buy test</button>
+                  </div>
+                  <div className={style.nav__rigth}>
+                    <div>
+                      <img src={Cart} alt="" />
+                    </div>
+                    <div>
+                      <img src={Profile} alt="" />
+                    </div>
+                    <div>
+                      <img src={Group} alt="" />
+                    </div>
+                  </div>
+                </div>
+              </div>
               <div>
                 <img src={Logo} alt="" />
               </div>
@@ -117,9 +118,9 @@ const Navfixed = ({ sticky }) => {
           </div>
         </div>
       ) : (
-        <div className={style.nav__search}>
+        <div className={style.nev__search}>
           <div className={style.center}>
-            <div className={style.nav__left}>
+            <div className={style.nev__left}>
               <div>
                 <img src={Logo} alt="" />
               </div>
@@ -137,8 +138,8 @@ const Navfixed = ({ sticky }) => {
                 />
               </div>
               <div className={style.nav__navigation}>
-                <button className={style.btn__navigator__x}>
-                  <img src={searchx} alt="" />
+                <button className={style.btn__navigator__x__m}>
+                  <img src={searchx} alt="" className={style.btn__m} />
                 </button>
               </div>
             </div>

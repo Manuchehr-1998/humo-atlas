@@ -8,15 +8,21 @@
 .free__book {
   position: absolute;
   top: 70px;
-  left: 965px;
+  right: 150px;
   transform: rotate(-9.103deg);
+  z-index: 0;
+}
+.btn{
+  z-index: 4;
 }
 .free__title {
   width: 90%;
   margin: auto;
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
   padding-top: 60px;
+  z-index: 2;
 }
 .free__title__text {
   width: 100%;
@@ -40,11 +46,6 @@
   font-weight: 400;
   line-height: 24px; /* 133.333% */
 }
-.btn {
-  position: absolute;
-  left: 1310px;
-  top: 60px;
-}
 .free__btn {
   display: inline-flex;
   height: 50px;
@@ -64,6 +65,7 @@
   position: absolute;
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
   top: 220px;
 }
 .style.card__par {
@@ -200,18 +202,25 @@
   letter-spacing: 0.24px;
   padding: 20px;
 }
+.btn__mobile{
+  display: block;
+}
 
 @media (max-width:376px){
   .free__contener {
     width: 100%;
     margin: auto;
-    height: 704px;
+    height: 1900px;
     position: relative;
+  }
+  .book{
+    width: 160px;
+    height: 138px;
   }
   .free__book {
     position: absolute;
-    top: 70px;
-    left: 965px;
+    top: -62px;
+    right: -10px;
     transform: rotate(-9.103deg);
   }
   .free__title {
@@ -219,12 +228,12 @@
     margin: auto;
     display: flex;
     flex-wrap: wrap;
-    padding-top: 60px;
+    padding-top: 18px;
   }
   .free__title__text {
     width: 100%;
     font-family: DINPro;
-    font-size: 50px;
+    font-size: 25px;
     font-style: normal;
     font-weight: 500;
     line-height: 60px; /* 120% */
@@ -233,22 +242,17 @@
     color: #7645ef;
   }
   .free__p {
-    color: var(--colors-black-lightened, #000);
-    font-feature-settings: "clig" off, "liga" off;
-    letter-spacing: 2px;
-    /* t1/Regular */
-    font-family: DINPro;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 24px; /* 133.333% */
+    font-size: 16px;
+  
+    line-height: 20px; /* 133.333% */
   }
   .btn {
-    position: absolute;
-    left: 1310px;
-    top: 60px;
+    display: none;
   }
-  .free__btn {
+  .btn__mobile{
+    display: block;
+  }
+  .free__btn__mobile {
     display:flex;
     height: 50px;
     padding: 11px 25px 14px 25px;
