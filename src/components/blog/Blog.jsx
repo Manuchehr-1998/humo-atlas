@@ -9,7 +9,7 @@ const Blog = () => {
       <div className={style.cards}>
         <div className={style.community}>
           <div className={style.absolute}>
-            <img src={mesangblog} alt="" />
+            <img src={mesangblog} alt="" className={style.absolute__img} />
           </div>
           <div className={style.community__text}>
             <h1 className={style.community__title}>

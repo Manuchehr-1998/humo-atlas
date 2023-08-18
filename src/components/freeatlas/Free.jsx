@@ -82,6 +82,9 @@ const Free = () => {
             </p>
           </div>
         </div>
+        <div className={style.btn__mobile}>
+        <button className={style.free__btn__mobile}>All courses</button>
+      </div>
       </div>
     </div>
   );

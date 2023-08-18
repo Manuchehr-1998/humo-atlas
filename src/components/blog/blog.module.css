@@ -84,7 +84,7 @@
   color: #fff;
   margin-bottom: 10px;
 }
-.community__check{
+.community__check {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -246,13 +246,11 @@
   width: 50%;
 }
 
-
-@media (max-width: 376px){
+@media (max-width: 376px) {
   .blog__contener {
     width: 100%;
     margin: auto;
-    padding-top: 80px;
-    padding-bottom: 80px;
+    padding-top: 10px;
     position: relative;
   }
   .cards {
@@ -260,26 +258,30 @@
     margin: auto;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
   }
-  
+
   /* community */
   .community {
-    width: 540px;
+    width: 330px;
     height: 360px;
     flex-shrink: 0;
     border-radius: 30px;
     background: #c1a9ff;
     position: relative;
-    margin-bottom: 50px;
+    margin-bottom: 10px;
   }
   .absolute {
     position: absolute;
-    top: 20px;
-    left: 365px;
+    top: -22px;
+    left: 200px;
   }
   .community__text {
-    padding: 40px;
+    padding: 10px;
+  }
+  .absolute__img {
+    width: 118px;
+    height: 101px;
   }
   .community__p {
     width: 319px;
@@ -287,25 +289,26 @@
     font-feature-settings: "clig" off, "liga" off;
     /* t1/Regular */
     font-family: DINPro;
-    font-size: 18px;
+    font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    line-height: 24px; /* 133.333% */
-    margin-top: 10px;
+    line-height: 20px; /* 133.333% */
+    margin-top: 1px;
   }
   .community__title {
     color: #fff;
     font-family: Druk Wide Cy TT Medium;
-    font-size: 30px;
+    font-size: 22px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
     letter-spacing: 0.9px;
   }
   .inp__btn {
-    width: 100%;
+    width: 267px;
     margin: auto;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
   }
   .inp {
@@ -318,6 +321,7 @@
     flex-shrink: 0;
     border-radius: 20px;
     border: none;
+    margin-bottom: 10px;
   }
   .community__btn {
     display: flex;
@@ -334,23 +338,19 @@
     color: #fff;
     margin-bottom: 10px;
   }
-  .community__check{
+  .community__check {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 20px;
   }
   .chek {
-    text-align: center;
-    color: var(--colors-black-30, rgba(0, 0, 0, 0.3));
-    font-feature-settings: "clig" off, "liga" off;
-  
     /* t3/Regular */
     font-family: DINPro;
-    font-size: 14px;
+    font-size: 12px;
     font-style: normal;
     font-weight: 400;
-    line-height: 20px; /* 142.857% */
+    line-height: 10px; /* 142.857% */
   }
   /* face__insta */
   .face__insta {
@@ -394,106 +394,15 @@
     font-weight: 500;
     line-height: 26px; /* 118.182% */
   }
-  .insta {
-    width: 250px;
-    height: 360px;
-    flex-shrink: 0;
-    border-radius: 30px;
-    background: #2c2f32;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-  #inst {
-    background: linear-gradient(
-      90deg,
-      rgba(248, 210, 97, 1),
-      rgba(249, 136, 104, 1),
-      rgba(243, 94, 159, 1),
-      rgba(192, 119, 227, 1)
-    );
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-feature-settings: "clig" off, "liga" off;
-    font-family: DINPro;
-    font-size: 22px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 30px;
-  }
-  .insta__btn {
-    display: flex;
-    width: 190px;
-    height: 50px;
-    padding: 11px 25px 14px 25px;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    flex-shrink: 0;
-    border-radius: 100px;
-    border: 1px solid rgba(255, 255, 255, 0.3);
-    background: black;
-    color: #fff;
-  }
-  .insta__text {
-    color: #fff;
-    width: 210px;
-    text-align: center;
-    font-feature-settings: "clig" off, "liga" off;
-    font-family: DINPro;
-    font-size: 22px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 26px; /* 118.182% */
-  }
-  .blog__text {
-    width: 90%;
-    margin: auto;
-    margin-top: 40px;
-    padding-top: 35px;
-    padding-bottom: 35px;
-    background-color: rgba(249, 247, 246, 1);
-    border-radius: 30px;
-  }
-  #email {
-    color: #7645ef;
-    font-feature-settings: "clig" off, "liga" off;
-    font-family: DINPro;
-    font-size: 22px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 30px;
-    text-decoration-line: underline;
-  }
-  
-  .text__got {
-    width: 90%;
-    margin: auto;
-    font-feature-settings: "clig" off, "liga" off;
-    /* H5/Medium */
-    font-family: DINPro;
-    font-size: 22px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 30px; /* 136.364% */
-  }
+
   /* blog__img */
   .blog__img {
     position: absolute;
-    top: 540px;
-    left: 1100px;
+    top: 1290px;
+    left: 70px;
   }
   /* blog__hr */
   .blog__hr__div {
-    width: 90%;
-    margin: auto;
-    display: flex;
-    gap: 50px;
-    margin-top: 60px;
+    display: none;
   }
-  .blog__hr {
-    width: 50%;
-  }
-  
 }

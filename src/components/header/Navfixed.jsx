@@ -138,8 +138,8 @@ const Navfixed = ({ sticky }) => {
                 />
               </div>
               <div className={style.nav__navigation}>
-                <button className={style.btn__navigator__x}>
-                  <img src={searchx} alt="" />
+                <button className={style.btn__navigator__x__m}>
+                  <img src={searchx} alt="" className={style.btn__m} />
                 </button>
               </div>
             </div>
