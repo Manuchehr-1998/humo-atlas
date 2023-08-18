@@ -123,7 +123,7 @@
   
   .card__img__trust {
     border-radius: 10px;
-    width: 252px;
+    width: 335px;
     height: 270px;
   }
   .card__title {
@@ -151,7 +151,8 @@
     background: rgba(118, 69, 239, 1);
     border-radius: 30px;
     color: white;
-    max-height: 320px;
+    height: 320px;
+    width: 335px;
   }
   .trust__block1__text {
     border-bottom: 2px solid rgba(255, 255, 255, 0.495);

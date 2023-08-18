@@ -296,7 +296,7 @@
     margin-bottom: 5px;
   }
   .cards__boy {
-    width: 252px;
+    width: 335px;
     height: 360px;
     background-image: url(../../assets/manage-1.png);
     border-radius: 10px;
@@ -352,7 +352,7 @@
   }
   /* cards 2 */
   .cards__salat {
-    width: 252px;
+    width: 335px;
     height: 360px;
     border-radius: 20px;
     background: #9fb5ce;
@@ -407,7 +407,7 @@
   }
   /* cards 3 */
   .cards__phone {
-    width: 252px;
+    width: 335px;
     height: 360px;
     border-radius: 20px;
     background: black;
