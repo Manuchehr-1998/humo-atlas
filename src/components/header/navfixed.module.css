@@ -201,7 +201,7 @@ background: none;
 }
 
 /* адаптасия мобилный версия */
-@media (max-width: 376px) {
+@media (max-width: 420px) {
   .sticky {
     width: 100%;
     position: sticky;

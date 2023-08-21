@@ -85,7 +85,7 @@
   line-height: 30px; /* 142.857% */
 }
 
-@media (max-width:376px){
+@media (max-width:420px){
   .trust {
     width: 100%;
     margin: auto;

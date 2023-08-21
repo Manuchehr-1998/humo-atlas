@@ -246,7 +246,7 @@
   width: 50%;
 }
 
-@media (max-width: 376px) {
+@media (max-width: 420px) {
   .blog__contener {
     width: 100%;
     margin: auto;

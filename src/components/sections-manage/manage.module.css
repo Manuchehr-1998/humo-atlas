@@ -1,6 +1,5 @@
 .mange__container {
   width: 100%;
-  height: 550px;
   margin: auto;
 }
 .mange__title {
@@ -267,7 +266,7 @@
   left: 200px;
 }
 
-@media (max-width: 376px) {
+@media (max-width: 420px) {
   .mange__container {
     width: 100%;
     margin: auto;

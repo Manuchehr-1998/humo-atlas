@@ -37,7 +37,7 @@
 }
 .card {
   padding: 20px;
-  width: 251px;
+  width: 320px;
 }
 
 .card__img {
@@ -85,7 +85,7 @@
 }
 
 /* mediy */
-@media (max-width: 376px) {
+@media (max-width: 420px) {
   .urban__container {
     width: 90%;
     margin-top: 200px;
