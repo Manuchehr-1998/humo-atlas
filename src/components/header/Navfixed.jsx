@@ -12,7 +12,7 @@ import style from "./navfixed.module.css";
 
 // eslint-disable-next-line react/prop-types
 const Navfixed = ({ sticky }) => {
-  const initialCloseValue = JSON.parse(localStorage.getItem("close")) || true;
+  const initialCloseValue = JSON.parse(localStorage.getItem("close")) || false;
   const [close, setClose] = useState(initialCloseValue);
 
   // Установить значение close в localStorage при изменении close
