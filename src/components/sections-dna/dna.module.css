@@ -81,7 +81,7 @@
     font-weight: 400;
   }
   .urbancard__container {
-    width: 100%;
+    width: 85%;
     margin: auto;
   }
   
@@ -91,7 +91,7 @@
     height: 250px;
   }
   .card__title {
-    height: 90px;
+    height: 70px;
   }
   .uraban__card__title {
     font-size: 22px;
@@ -100,7 +100,7 @@
   }
   /* Add some padding inside the card container */
   .container__urban__text {
-    width: 75%;
-    height: 100px;
+    width: 100%;
+    height: 55px;
   }
 }

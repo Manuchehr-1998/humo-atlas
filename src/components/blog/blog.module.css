@@ -368,6 +368,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    margin-bottom: 25px;
   }
   .manage__btn {
     display: flex;
@@ -398,8 +399,8 @@
   /* blog__img */
   .blog__img {
     position: absolute;
-    top: 1290px;
-    left: 70px;
+    top: 1320px;
+    left: 125px;
   }
   /* blog__hr */
   .blog__hr__div {

@@ -291,7 +291,7 @@
     margin: auto;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center ;
     margin-bottom: 5px;
   }
   .cards__boy {
@@ -301,7 +301,7 @@
     border-radius: 10px;
     display: flex;
     flex-wrap: wrap;
-    margin-bottom: 7px;
+    margin-bottom: 20px;
   }
   .price__discount {
     display: flex;
@@ -358,7 +358,7 @@
     display: flex;
     flex-wrap: wrap;
     position: relative;
-    margin-bottom: 7px;
+    margin-bottom: 20px;
   }
   #micro {
     color: #fff;
@@ -413,7 +413,7 @@
     display: flex;
     flex-wrap: wrap;
     position: relative;
-    margin-bottom: 7px;
+    margin-bottom: 20px;
   }
   .phone__name {
     width: 100%;

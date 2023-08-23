@@ -89,6 +89,7 @@
   .trust {
     width: 100%;
     margin: auto;
+    margin-top: 50px;
   }
   .trust__title {
     width: 90%;
@@ -99,6 +100,7 @@
     font-style: normal;
     font-weight: 400;
     line-height: 70px; /* 100% */
+    text-align: center;
   }
   
   .card__trust {
@@ -107,7 +109,7 @@
     justify-content: space-between;
   }
   .trust__container{
-    width: 90%;
+    width: 80%;
     margin: auto;
     display: flex;
     flex-wrap: wrap;

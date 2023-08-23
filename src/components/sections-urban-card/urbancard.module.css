@@ -88,7 +88,7 @@
 @media (max-width: 420px) {
   .urban__container {
     width: 90%;
-    margin-top: 200px;
+    margin-top: 225px;
   }
   .card {
     padding: 0px;
@@ -104,12 +104,14 @@
     font-size: 30px;
     font-weight: 400;
     line-height: 25px;
+    text-align: center;
   }
   .urban__data {
     font-size: 25px;
     line-height: 34px;
     color: rgba(0, 0, 0, 1);
     opacity: 20%;
+    text-align: center
   }
   .urban__data__card {
     color: rgba(0, 0, 0, 1);
@@ -119,7 +121,6 @@
     font-weight: 400;
   }
   .urbancard__container {
-    width: 100%;
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(1, 1fr);
@@ -131,7 +132,7 @@
     height: 250px;
   }
   .card__title {
-    height: 120px;
+    height: 70px;
   }
   .uraban__card__title {
     font-size: 22px;
@@ -141,7 +142,7 @@
   /* Add some padding inside the card container */
   .container__urban__text {
     width: 85%;
-    height: 126px;
+    height: 80px;
   }
   /* articles */
   .top__articles {
