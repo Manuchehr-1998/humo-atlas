@@ -4,9 +4,12 @@ import Cart from "../../assets/Cart.svg";
 import Profile from "../../assets/Profile.svg";
 import Group from "../../assets/Group 48948.svg";
 import Navigation from "../../assets/navigation-close-icon.svg";
-
+import microbibtn from "../../assets/microbiome-kit.png";
 import search from "../../assets/serach.svg";
 import searchx from "../../assets/seatchx.svg";
+import mobilef from "../../assets/mobile-face.svg";
+import mobileinst from "../../assets/mobile-insta.svg";
+import mobilemess from "../../assets/mobile-messenge.svg";
 import { useEffect, useState } from "react";
 import style from "./navfixed.module.css";
 
@@ -23,6 +26,11 @@ const Navfixed = ({ sticky }) => {
   // Обработчик клика для изменения значения close
   const handleClick = () => {
     setClose(!close);
+  };
+  const [isActive, setIsActive] = useState(false);
+
+  const toggleMenu = () => {
+    setIsActive(!isActive);
   };
 
   return (
@@ -58,39 +66,6 @@ const Navfixed = ({ sticky }) => {
         <div className={style.nav__search}>
           <div className={style.nav__center}>
             <div className={style.nav__left}>
-              <div className={style.wrapper}>
-                <div className={style.burger__btn}>
-                  <span></span>
-                  <span></span>
-                  <span></span>
-                </div>
-                <div className={style.burger__menu}>
-                  <nav>
-                    <ul>
-                      <li>DNA</li>
-                      <li>Microbiome</li>
-                      <li>Partner with us</li>
-                      <li>About Atlas</li>
-                      <li>FAQ</li>
-                      <li>Upload</li>
-                    </ul>
-                  </nav>
-                  <div className={style.new__btn}>
-                    <button className={style.new__btn__test}>Buy test</button>
-                  </div>
-                  <div className={style.nav__rigth}>
-                    <div>
-                      <img src={Cart} alt="" />
-                    </div>
-                    <div>
-                      <img src={Profile} alt="" />
-                    </div>
-                    <div>
-                      <img src={Group} alt="" />
-                    </div>
-                  </div>
-                </div>
-              </div>
               <div>
                 <img src={Logo} alt="" />
               </div>
@@ -147,6 +122,57 @@ const Navfixed = ({ sticky }) => {
           </div>
         </div>
       )}
+      <div className={style.wrapper__burger}>
+        <div className={style.new__div}>
+          <div
+            className={`${style.burger__btn} ${isActive ? style.active : ""}`}
+            onClick={toggleMenu}
+          >
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <div className={style.logo__Group}>
+            <div>
+              <img src={Logo} alt="" />
+            </div>
+            <div>
+              <img src={Group} alt="" />
+            </div>
+          </div>
+        </div>
+        <div
+          className={`${style.burger__menu} ${isActive ? style.active : ""}`}
+        >
+          <nav className={style.mobile__nav}>
+            <ul>
+              <li>DNA</li>
+              <li>Microbiome</li>
+              <li>Partner with us</li>
+              <li>About Atlas</li>
+              <li>FAQ</li>
+              <li>Upload</li>
+            </ul>
+          </nav>
+          <div className={style.new__btn}>
+            <button className={style.new__btn__test}>
+              Buy test <img src={microbibtn} alt="" />
+              <img src={microbibtn} alt="" />
+            </button>
+          </div>
+          <div className={style.nav__rigth__mobile}>
+            <div>
+              <img src={mobilef} alt="" />
+            </div>
+            <div>
+              <img src={mobileinst} alt="" />
+            </div>
+            <div>
+              <img src={mobilemess} alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   );
 };

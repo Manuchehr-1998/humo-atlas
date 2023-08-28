@@ -9,7 +9,7 @@ import Free from "../components/freeatlas/Free";
 import Blog from "../components/blog/Blog";
 import { useEffect, useState } from "react";
 import Navfixed from "../components/header/Navfixed";
-import "./home.css"
+import "./home.css";
 
 const Home = () => {
   const [sticky, setSticky] = useState(false);
